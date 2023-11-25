@@ -19,9 +19,9 @@ while True:
             pygame.quit()
     keys = pygame.key.get_pressed()
     if keys[pygame.K_z] or keys[pygame.K_UP]:
-        rotate(cube, -rotation_speed, 0, 0)
-    if keys[pygame.K_s] or keys[pygame.K_DOWN]:
         rotate(cube, rotation_speed, 0, 0)
+    if keys[pygame.K_s] or keys[pygame.K_DOWN]:
+        rotate(cube, -rotation_speed, 0, 0)
     if keys[pygame.K_d] or keys[pygame.K_RIGHT]:
         rotate(cube, 0, rotation_speed, 0)
     if keys[pygame.K_q] or keys[pygame.K_LEFT]:
