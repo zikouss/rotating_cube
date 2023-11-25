@@ -10,8 +10,8 @@ This project employs Pygame to create a window displaying a 3D cube that rotates
 
 - **Cube.py:** Contains functions for cube creation, translation, rotation, drawing, and connecting points.
 - **main.py:** Initializes the Pygame window and handles user input for cube rotation.
-- **matrices_rotation.py:** Provides functions to generate rotation matrices for x, y, and z axes.
-- **operations_matrices.py:** Includes a matrix multiplication function used for rotations.
+- **matrix_rotation.py:** Provides functions to generate rotation matrices for x, y, and z axes.
+- **matrix_operations.py:** Includes a matrix multiplication function used for rotations.
 
 ## Setup and Usage
 

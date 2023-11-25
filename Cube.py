@@ -1,6 +1,6 @@
 import pygame
-from matrices_rotation import *
-from operations_matrices import *
+from matrix_rotation import *
+from matrix_operations import *
 
 
 def create_cube(size):
@@ -68,6 +68,6 @@ def rotate(cube, x, y, z):
     r_y = rotation_y(y)
     r_z = rotation_z(z)
     for i in range(n):
-        cube[i] = produit_matriciel(r_x, cube[i])
-        cube[i] = produit_matriciel(r_y, cube[i])
-        cube[i] = produit_matriciel(r_z, cube[i])
+        cube[i] = matrix_product(r_x, cube[i])
+        cube[i] = matrix_product(r_y, cube[i])
+        cube[i] = matrix_product(r_z, cube[i])

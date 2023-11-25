@@ -1,4 +1,4 @@
-def produit_matriciel(A, B):
+def matrix_product(A, B):
     n = len(A)
     r = len(B)
     m = len(B[0])
