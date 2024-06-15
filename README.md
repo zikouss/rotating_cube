@@ -25,7 +25,7 @@ This project employs Pygame to create a window displaying a 3D cube that rotates
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/zikouS1/rotating_cube.git
+   git clone https://github.com/zikouss/rotating_cube.git
    cd rotating_cube
 1. Open the main file:
 
